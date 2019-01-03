@@ -1,0 +1,84 @@
+.footer{
+    clip-path: polygon(0 0, 30% 0, 50% 3.5rem, 70% 0, 100% 0, 100% 100%, 0 100%);
+    transition: all .2s ease-out;
+    margin-top: -3.5rem;
+    &-btn-area{
+        background: #104074;
+        padding-top:10rem;
+        padding-bottom: 8rem;
+        color: #fff;
+        @media (max-width: 48em){
+            & div[class^="col"]:last-child {
+                margin-top: 30px;
+            }
+        }
+        a{
+            display: block !important;
+            @media(min-width: 64em){
+            width: 40rem;
+            }
+            font-size: 1.8rem;
+            margin: 0 auto;
+            text-align: center;
+            text-transform: none !important;
+            @include respond(tab-land){
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+            @include respond(tab-port){
+                padding-top: 2rem !important;
+                padding-bottom: 2rem !important;
+            }
+        }
+        p{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .btn{
+            font-size: 1.4rem;
+        }
+    }
+    &-widget-area{
+        padding: 3rem 0;
+        font-size: 1.4rem;
+        background-color: #2b3745;
+        @include respond(tab-port){
+            padding:0;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            li{
+                padding: 1rem 4rem;
+                @include respond(tab-land){
+                    padding: 1rem 1rem;
+                }
+                display: inline-block;
+                @include respond(tab-port){
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                }
+                a{
+                    color: #fff;
+                    @include respond(tab-port){
+                        display: block;
+                        border-top: 1px solid rgba(255,255,255, .1);
+                        width: 100%;
+                        padding: 1rem;
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    &-copyright{
+        padding: 1.5rem 0;
+        text-align: center;
+        text-transform: uppercase;
+        background: #1c242f;
+        color: #ccc;
+    }
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>HTML - CSS example</title>
+    </head>
+
+    <body>
+        <nav class="off-menu-container">
+            <ul class="menu">
+                <li class="menu-item current-menu-item">
+                    <a href="#"><span>OFFICE</span></a>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="#"><span>Shimbashi/Uchisaiwaicho</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Shibuya</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Shinjuku-South</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Shinjuku-Avenue</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Roppongi</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Aoyama</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Sendai</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Singapore</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Jakarta</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Delhi</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Manila</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Ho Chi Minh City</span></a></li>
+                        <li class="submenu-item"><a href="#"><span>Bangkok</span></a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#"><span>virtual OFFICE</span></a></li>
+                <li class="menu-item"><a href="#"><span>ABOUT</span></a></li>
+                <li class="menu-item">
+                    <a href="#"><span>Office Types</span></a>
+                    <ul class="submenu">
+                    <li class="submenu-item"><a href="#"><span>Flow</span></a></li>
+                    <li class="submenu-item"><a href="#"><span>Services &amp; Facilities</span></a></li>
+                    <li class="submneu-item"><a href="#"><span>Case Study</span></a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#"><span>CONTACT</span></a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="header-fix__gnav">
+                <div class="header-fix__gnav-inner">
+                    <div class="logo">
+                            <a href="#"><span class="helper"></span><img src="https://crosscoop.com/wp-content/themes/crosscoop/img/logo_s.svg" alt="INCUBATION OFFICE CROSS COOP"></a>   
+                    </div>
+                    <div class="nav">
+                        <div class="responsive-btn" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                            <div class="text">MENU</div>
+                        </div>
+                        <a href="#" class="btn btn--primary btn--medium">BOOK ONLINE</a>
+                        <div class="phone">TEL <span class="num">03-5361-8660</span><span class="txt11">(9:00-18:00)</span></div>
+                        <ul>
+                            <li class="dropdown">
+                                <a class="dropdownbtn" href="#"><span>OFFICE</span></a>
+                                <ul class="dropdown-content">
+                                    <li><a href="#"><span>Shimbashi/Uchisaiwaicho</span></a></li>
+                                    <li><a href="#"><span>Shibuya</span></a></li>
+                                    <li><a href="#"><span>Shinjuku-South</span></a></li>
+                                    <li><a href="#"><span>Shinjuku-Avenue</span></a></li>
+                                    <li><a href="#"><span>Roppongi</span></a></li>
+                                    <li><a href="#"><span>Aoyama</span></a></li>
+                                    <li><a href="#"><span>Sendai</span></a></li>
+                                    <li><a href="#"><span>Singapore</span></a></li>
+                                    <li><a href="#"><span>Jakarta</span></a></li>
+                                    <li><a href="#"><span>Delhi</span></a></li>
+                                    <li><a href="#"><span>Manila</span></a></li>
+                                    <li><a href="#"><span>Ho Chi Minh City</span></a></li>
+                                    <li><a href="#"><span>Bangkok</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><span>virtual OFFICE</span></a></li>
+                            <li><a href="#"><span>ABOUT</span></a></li>
+                            <li><a href="#"><span>Office Types</span></a></li>
+                            <li><a href="#"><span>CONTACT</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__container container">
+                <div class="row header__content">
+                    <div class="header__logo-box col-sm-1">
+                        <div class="site-branding">
+                            <div class="site-branding__heading">
+                                <a href="https://crosscoop.com/?lang=en" rel="home">
+                                    <img class="hidden-x" src="https://crosscoop.com/wp-content/themes/crosscoop/img/logo.svg" alt="INCUBATION OFFICE CROSS COOP">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__nav-wrapper col-xs-12 col-sm-11">
+                        <div class="header__nav-wrapper-inner">
+                            <div class="prime-area"><a href="#" class="btn btn--primary btn--medium">BOOK ONLINE</a></div>
+                            <div class="phone"><p class="tx11">TEL 9:00-18:00</p><p class="num">03-5361-8660</p></div>
+                            <div class="lang"><a href="https://crosscoop.com/office">JA</a>/<a class="current" href="https://crosscoop.com/office?lang=en">EN</a></div>
+                            <div class="header__global-nav">
+                                <ul class="header__menu">
+                                    <li class="header__menu-item header__menu-item--current dropdown">
+                                        <a href="#" class="dropdownbtn"><span>OFFICE</span></a>
+                                        <ul class="dropdown-content">
+                                            <li><a href="#">Shimbashi/Uchisaiwaicho</a></li>
+                                            <li><a href="#">Shibuya</a></li>
+                                            <li><a href="#">Shinjuku-South</a></li>
+                                            <li><a href="#">Shinjuku-Avenue</a></li>
+                                            <li><a href="#">Roppongi</a></li>
+                                            <li><a href="#">Aoyama</a></li>
+                                            <li><a href="#">Sendai</a></li>
+                                            <li><a href="#">Singapore</a></li>
+                                            <li><a href="#">Jakarta</a></li>
+                                            <li><a href="#">Delhi</a></li>
+                                            <li><a href="#">Manila</a></li>
+                                            <li><a href="#">Ho Chi Minh City</a></li>
+                                            <li><a href="#">Bangkok</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="header__menu-item header__menu-item--2-line"><a href="#"><span>virtual&nbsp;<br>OFFICE</span></a></li>
+                                    <li class="header__menu-item"><a href="#"><span>ABOUT</span></a></li>
+                                    <li class="header__menu-item"><a href="#"><span>Office Types</span></a></li>
+                                    <li class="header__menu-item"><a href="#"><span>CONTACT</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="header__sub-nav">
+                                <ul>
+                                    <li><a href="#">Shimbashi<span class="hidden-md">/Uchisaiwaicho</span></a></li>
+                                    <li><a href="#">Shibuya</a></li>
+                                    <li><a href="#">Shinjuku-South</a></li>
+                                    <li><a href="#">Shinjuku-Avenue</a></li>
+                                    <li><a href="#">Roppongi</a></li>
+                                    <li><a href="#">Aoyama</a></li>
+                                    <li><a href="#">Sendai</a></li>
+                                    <li><a href="#">Singapore</a></li>
+                                    <li><a href="#">Jakarta</a></li>
+                                    <li><a href="#">Delhi</a></li>
+                                    <li><a href="#">Manila</a></li>
+                                    <li><a href="#">Ho Chi Minh City</a></li>
+                                    <li><a href="#">Bangkok</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main style="overflow: hidden;">
+            <section class="bread-crumb">
+                <div class="bread-crumb__container">
+                    <a href="#">Top</a> > OFFICE
+                </div>
+            </section>
+            <section class="page-header">
+                <div class="container">
+                    <h1 class="page-header__title">
+                        office
+                    </h1>
+                </div>
+            </section>
+            <section class="office-ja">
+                <div class="container">
+                    <div class="office-ja__bg"></div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_shib.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="#">Shibuya, Tokyo</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>1-3-9 Shibuya, Shibuya-ku Tokyo, Japan – <br class="pc_none">Hulic Shibuya 1-chome Building 7F</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-3-6778-2800</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_shin.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=79&amp;lang=en" class="">Shinjuku South, Tokyo</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>4-3-17 Shinjuku, Shinjuku-ku Tokyo, Japan – <br class="pc_none">Forecast Shinjuku SOUTH 6F</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-3-5361-8660</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_shin-av.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=82&amp;lang=en" class="">Shinjuku Avenue, Tokyo</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>2-5-12 Shinjuku, Shinjuku-ku Tokyo, Japan – <br class="pc_none">Forecast Shinjuku AVENUE 6F, 5F, 4F</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-3-5363-5266</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_rop.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=6&amp;lang=en" class="">Roppongi, Tokyo</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>4-8-7 Roppongi, Minato-ku Tokyo, Japan – <br class="pc_none">Roppongi-Mikawadai Building 5F, 6F, 7F, 8F</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-3-5414-7965</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_ao.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=20&amp;lang=en" class="">Aoyama, Tokyo</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>2-7-26 Kita-Aoyama, Minato-ku Tokyo, Japan – <br class="pc_none">Landwork Aoyama Building 2F, 4F, 5F, 9F</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-3-5785-6818</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_sd.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/office/sendai" class="">Sendai Miyaggi, Japan</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>1-9-1 Ichibancho Aoba-ku Sendai Miyagi, Japan – <br class="pc_none">Sendai Trust Tower 10th Floor</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+81-22-209-5033</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="office-oversea">
+                <div class="container">
+                    <div class="office-oversea__bg"></div>
+
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_sin.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=84&amp;lang=en" class="">Singapore</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>80 Robinson Road Singapore 068898</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+65-6420-6370</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_jak.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=87&amp;lang=en" class="">Jakarta MULIA</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>MENARA MULIA 27th Floor Jl. Jend. Gatot Subroto Kav. 9-11 Karet Semanggi Setiabudi Jakarta 12930</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+62-21-2953-9500</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_deli.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=89&amp;lang=en" class="">Delhi</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>3rd Floor DLF Building No.9-A DLF Cyber City, Phase-Ⅲ, Gurgaon Haryana 122002</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+91-124-454-5000</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_man.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=93&amp;lang=en" class="">Manila</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>23F GT Tower International, 6813 Ayala Avenue (corner HV Dela Costa), 1227 Makati City, Manila Philippines</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+63-2-464-7100</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_ho.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/?page_id=91&amp;lang=en" class="">Ho Chi Minh City</a></h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>72 Le Thanh Ton Street, District 1, Ho Chi Minh City, Vietnam</li>
+                                <li><i class="fa fa-phone"></i><span class="tel">+84-8-3528-5400</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row office-box">
+                        <div class="col-xs-3 col-sm-2 office-box__pic">
+                            <img src="/img/office_list_bk.png" alt="">
+                        </div>
+                        <div class="col-xs-9 col-sm-6 office-box__detail">
+                            <h3><a href="/office/bangkok?lang=en" class="">Bangkok</a></h3>
+                            <ul>
+                            <li><i class="fa fa-map-marker"></i>2 Jasmine City Building, 25th Floor, Sukhumvit Soi 23 (Prasarn Mitr), Sukhumvit Road, Klong Toey Nue, Wattana, Bangkok 10110（Company registration）</li>
+                            <li><i class="fa fa-phone"></i><span class="tel">+66-(0)2-639-7200</span></li>
+                            </ul>
+                        </div>
+                    </div>	
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-btn-area">
+                <div class="container">
+                    <div class="row">
+						<div class="col-sm-6" style="text-align: center;"><a href="/contact/visit?lang=en" class="btn btn--lg btn--primary"><i class="fa fa-edit fa-2x"></i>&nbsp;<span style="vertical-align: .3em;"">BOOK ONLINE(Office Viewing)</span></a><p>BOOK ONLINE(Office Viewing) from here</p></div>
+						<div class="col-sm-6" style="text-align: center;"><a href="/contact/enquiry?lang=en" class="btn btn--lg btn--primary"><i class="fa fa-envelope fa-2x"></i>&nbsp;<span style="vertical-align: .2em;">CONTACT US</span></a></div>
+					</div>
+                </div>
+            </div>
+            <div class="footer-widget-area">
+                <div class="container">
+                    <div class="row">
+                        <ul class="footer-nav">
+                            <li><a href="#">For estate agency</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Site map</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Seminar room</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2015 socialwire co.,ltd
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+            document.getElementsByTagName("body")[0].classList.toggle("open");
+        }
+        if ($(window).width() > 768){
+            document.getElementsByTagName("body")[0].classList.remove("open");
+            document.getElementsByClassName("responsive-btn")[0].classList.remove("change");
+            $(window).scroll(function () {
+                if ( $(this).scrollTop() > 50 && $('.header-fix__gnav').css('display') == 'none' ) {
+                    $('.header-fix__gnav').css('display', 'block');
+                    if($(window).width() > 768) {
+                        $('.header-fix__gnav').slideDown();
+                    }
+                } else if ( $(this).scrollTop() <= 50 ) {
+                    $('.header-fix__gnav').css('display', 'none');
+                    if($(window).width() >768){
+                        $('.header-fix__gnav').slideUp();
+                    }
+                }
+            });
+        }
+     $(window).resize(function() {
+        if ($(window).width() > 768){
+            document.getElementsByTagName("body")[0].classList.remove("open");
+            document.getElementsByClassName("responsive-btn")[0].classList.remove("change");
+            $(window).scroll(function () {
+                if ( $(this).scrollTop() > 50 && $('.header-fix__gnav').css('display') == 'none' ) {
+                    $('.header-fix__gnav').css('display', 'block');
+                    if($(window).width() > 768) {
+                        $('.header-fix__gnav').slideDown();
+                    }
+                } else if ( $(this).scrollTop() <= 50 ) {
+                    $('.header-fix__gnav').css('display', 'none');
+                    if($(window).width() >768){
+                        $('.header-fix__gnav').slideUp();
+                    }
+                }
+            });
+        }
+    });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+.page-header{
+    color: #3d3d3d;
+    text-transform: uppercase;
+    padding: 2rem 0 3rem 0;
+    border-bottom: 1px solid #eeeeee;
+    h1{
+        font-size: 3.5rem;
+        font-weight: normal;
+        text-align: center;
+        @include respond(tab-port){
+            font-size: 3rem;
+        }
+        @include respond(phone){
+            font-size: 2.5rem;
+        }
+    }
+}
+.office-ja{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    .container{
+        position: relative;
+        @include respond(tab-port){
+            max-width: 50rem;
+        }
+    }
+    &__bg{
+        background: url('../img/office_list_jp_bg.jpg') no-repeat right 5rem;
+        margin-right: -15rem;
+        width: 40rem;
+        height: 66rem;
+        right:0;
+        position: absolute;
+        @include respond(tab-land){
+            right: -10rem;
+        }
+        @include respond(tab-port){
+            background: none;
+        }
+    }
+}
+.office-box{
+    &__pic{
+        img{
+            max-width: 11.5rem;
+            @include respond(tab-port){
+                max-width: 100%;
+            }
+        }
+        @include respond(phone){
+            display: none;
+        }
+    }
+    &__detail{
+        h3{
+            margin:0;
+            padding:0 0 2rem 0;
+            font-size: 2rem;
+            a{
+                &,&:link, &:visited{
+                    color: #24b3c8;
+                    @include respond(phone){
+                        color: #3d599a;
+                    }
+                }
+                &:hover{
+                    color: #1c8c9d;
+                }
+            }
+            @include respond(tab-port){
+                padding: 1rem 0;
+            }
+            @include respond(phone){
+                font-size: 1.8rem;
+                text-align: center;
+                margin-left: -1.5rem;
+                margin-right: -1.5rem;
+            }
+        }
+        ul{
+            list-style: none;
+            padding: 0 0 5rem 0;
+            li{
+                padding-left: 2em;
+                text-indent: -1em;
+                line-height: 1.5em;
+                .pc_none{
+                    display: none;
+                }
+                .fa{
+                    @include respond(phone){
+                        display: none
+                    }
+                }
+                span{
+                    color: #337ab7;
+                }
+            }
+            @include respond(phone){
+                padding-bottom: 1rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+        @include respond(phone){
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+.office-oversea{
+    background: #f9f9f9;
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+    .container{
+        position: relative;
+        @include respond(tab-port){
+            max-width: 50rem;
+        }
+    }
+    &__bg{
+        background: url('/img/office_list_os_bg.jpg') no-repeat right 5rem;
+        margin-right: -15rem;
+        width: 40rem;
+        height: 66rem;
+        right:0;
+        position: absolute;
+        @include respond(tab-land){
+            right: -10rem;
+        }
+        @include respond(tab-port){
+            background: none;
+        }
+    }
+}
